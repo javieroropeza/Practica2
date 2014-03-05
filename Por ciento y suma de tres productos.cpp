@@ -31,26 +31,14 @@ class Practica2
 		Console.WriteLine( "Introduce el precio del producto 3" );
  
   		producto3 = double.Parse(Console.ReadLine());
+		
   
-          
+		re1 = producto1*16/100 + producto1;
             
-		re1 = producto1*16/100;
+ 		re2 = producto2*16/100 + producto2;
             
-		re1 = producto1 + re1;
-      
-      
-           
- 		re2 = producto2*16/100;
-            
-		re2 = producto2 + re2;
-             
-            
-
-		re3 = producto3*16/100;
-            
-		re3 = producto3 + re3;
-            
-            
+		re3 = producto3*16/100 + producto3;
+		
 
 		Console.WriteLine( "Producto 1= " + re1 );
             
